@@ -4,12 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.PathVariable;
 // imports for use List, Map, String and Object
 //import java.util.List;
 //import java.util.Map;
@@ -44,7 +42,7 @@ public class ControladorCurso {
 	}
 
     @DeleteMapping(path="/eliminar")
-	public @ResponseBody String delUser (@RequestParam Integer id) {
+	public @ResponseBody String eliminarUser (@RequestParam Integer id) {
 		User n = new User();
 		n.setId(id);
 		userRepository.delete(n);
