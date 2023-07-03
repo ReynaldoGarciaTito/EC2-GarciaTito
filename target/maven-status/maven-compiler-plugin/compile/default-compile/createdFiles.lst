@@ -1,2 +1,5 @@
-com/example/demo/Ec2Application.class
+com/example/demo/UserRepository.class
 com/example/demo/Controlador.class
+com/example/demo/User.class
+com/example/demo/ControladorCurso.class
+com/example/demo/Ec2Application.class
