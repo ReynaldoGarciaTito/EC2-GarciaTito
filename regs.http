@@ -23,11 +23,11 @@ GET https://rest-ec2-garcia-tito.onrender.com/idat/nombre-completo
 
 ###
 # 4: Listar cursos
-GET https://{{subdominio}}.onrender.com/api/curso/listar HTTP/1.1
+GET https://rest-ec2-garcia-tito.onrender.com/api/curso/listar HTTP/1.1
 
 ###
 # 5: Nuevo Curso
-POST https://{{subdominio}}.onrender.com/api/curso/nuevo HTTP/1.1
+POST https://rest-ec2-garcia-tito.onrender.com/api/curso/nuevo HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
 nombre=DSW1
@@ -35,37 +35,7 @@ nombre=DSW1
 
 ###
 # 6: Eliminar Curso
-DELETE https://{{subdominio}}.onrender.com/api/curso/eliminar HTTP/1.1
+DELETE https://rest-ec2-garcia-tito.onrender.com/api/curso/eliminar HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
-id=1
-
-
-
-
-
-
-###
-
-
-
-
-GET https://reynaldogarciatito-bug-free-memory-4x99j5wv969hj9w5-8080.preview.app.github.dev/api/curso/listar
-
-###
-
-
-POST https://reynaldogarciatito-bug-free-memory-4x99j5wv969hj9w5-8080.preview.app.github.dev/api/curso/nuevo
-Content-Type: application/x-www-form-urlencoded
-
-nombre=Reynaldo Garcia Tito
-creditos=20
-
-
-###
-
-DELETE https://reynaldogarciatito-bug-free-memory-4x99j5wv969hj9w5-8080.preview.app.github.dev/api/curso/eliminar
-Content-Type: application/x-www-form-urlencoded
-
-id=1
-
+id=3
