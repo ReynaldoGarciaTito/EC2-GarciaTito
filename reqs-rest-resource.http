@@ -1,5 +1,7 @@
 @server = https://reynaldogarciatito-bug-free-memory-4x99j5wv969hj9w5-8080.preview.app.github.dev
 
+//@server = https://rest-ec2-garcia-tito.onrender.com
+
 ###
 GET {{server}}
 
@@ -25,7 +27,7 @@ GET {{server}}/cursos/102
 POST {{server}}/cursos
 Content-Type: application/json
 
-{"nombre": "Algoritmos", "creditos": 3}
+{"nombre": "Matematicas", "creditos": 2, "id_carrera": 1}
 
 ### 
 PATCH {{server}}/cursos/102
@@ -40,7 +42,7 @@ DELETE {{server}}/cursos/102
 ###
 GET {{server}}/cursos/search/findByNombre?nombre=Algoritmos
 ###
-GET {{server}}/cursos
+GET {{server}}/cursos/1
 ###
 GET {{server}}/profile/cursos
 ###
@@ -50,14 +52,24 @@ GET {{server}}/cursos/search
 
 
 
+#################
 
 
-
-
-
-
+GET {{server}}/carreras
 ###
-POST {{server}}/users
+GET {{server}}/carreras/1/cursos
+###
+POST {{server}}/carreras
 Content-Type: application/json
 
-{"nombre": "Compiladores", "creditos": 5}
+{"nombre": "Desarrollo de Sistemas de Informacion"}
+
+### 
+PATCH {{server}}/cursos/4
+Content-Type: application/json
+
+{"id_carrera": 2}
+
+###
+
+GET {{server}}/cursos/4/carrera

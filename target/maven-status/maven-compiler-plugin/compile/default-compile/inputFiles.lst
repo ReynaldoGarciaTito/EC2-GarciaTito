@@ -1,3 +1,5 @@
 /workspaces/EC2-GarciaTito/src/main/java/com/example/demo/Ec2Application.java
-/workspaces/EC2-GarciaTito/src/main/java/com/example/demo/UserRepository.java
-/workspaces/EC2-GarciaTito/src/main/java/com/example/demo/User.java
+/workspaces/EC2-GarciaTito/src/main/java/com/example/demo/CursoRepository.java
+/workspaces/EC2-GarciaTito/src/main/java/com/example/demo/CarreraRepository.java
+/workspaces/EC2-GarciaTito/src/main/java/com/example/demo/Carrera.java
+/workspaces/EC2-GarciaTito/src/main/java/com/example/demo/Curso.java

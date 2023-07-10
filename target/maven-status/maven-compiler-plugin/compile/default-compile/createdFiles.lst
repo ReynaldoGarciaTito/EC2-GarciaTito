@@ -1,3 +1,5 @@
-com/example/demo/UserRepository.class
-com/example/demo/User.class
+com/example/demo/Curso.class
+com/example/demo/CarreraRepository.class
+com/example/demo/Carrera.class
+com/example/demo/CursoRepository.class
 com/example/demo/Ec2Application.class
